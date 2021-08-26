@@ -40,7 +40,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <spring-cloud.version>2020.0.3</spring-cloud.version>
-    <spring-boot.version>${parent.version}</spring-boot.version>
+    <spring-boot.version>${project.parent.version}</spring-boot.version>
 
     <!--第三方包版本管理-->
     <commons-beanutils.version>1.9.4</commons-beanutils.version>
