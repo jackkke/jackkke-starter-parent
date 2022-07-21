@@ -40,7 +40,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <spring-cloud.version>2021.0.1</spring-cloud.version>
-    <spring-boot.version>${project.parent.version}</spring-boot.version>
+    <spring-boot.version>2.6.3</spring-boot.version>
 
     <!--第三方包版本管理-->
     <commons-beanutils.version>1.9.4</commons-beanutils.version>
@@ -193,18 +193,6 @@
             <includeOnlyProperty>^git.commit.id.(abbrev|full)$</includeOnlyProperty>
           </includeOnlyProperties>
           <commitIdGenerationMode>full</commitIdGenerationMode>
-        </configuration>
-      </plugin>
-      <plugin>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-maven-plugin</artifactId>
-        <configuration>
-          <excludes>
-            <exclude>
-              <groupId>org.projectlombok</groupId>
-              <artifactId>lombok</artifactId>
-            </exclude>
-          </excludes>
         </configuration>
       </plugin>
     </plugins>
