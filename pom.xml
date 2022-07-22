@@ -59,6 +59,7 @@
     <persistence-api.version>1.0.2</persistence-api.version>
     <poi.version>4.1.2</poi.version>
     <spring-cloud-alibaba-dependencies.version>2021.0.1.0</spring-cloud-alibaba-dependencies.version>
+    <lettuce-core.version>6.2.0.RELEASE</lettuce-core.version>
   </properties>
 
   <dependencies>
@@ -164,6 +165,11 @@
         <groupId>commons-codec</groupId>
         <artifactId>commons-codec</artifactId>
         <version>${commons-codec.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.lettuce</groupId>
+        <artifactId>lettuce-core</artifactId>
+        <version>${lettuce-core.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
