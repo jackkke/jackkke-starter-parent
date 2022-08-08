@@ -53,7 +53,7 @@
     <commons-configuration2.version>2.7</commons-configuration2.version>
     <disruptor.version>3.4.2</disruptor.version>
     <druid-spring-boot-starter.version>1.2.4</druid-spring-boot-starter.version>
-    <fastjson.version>1.2.75</fastjson.version>
+    <fastjson2.version>2.0.11</fastjson2.version>
     <git-commit-id-plugin.version>4.9.10</git-commit-id-plugin.version>
     <lombok.version>1.18.16</lombok.version>
     <persistence-api.version>1.0.2</persistence-api.version>
@@ -116,9 +116,9 @@
         <version>${commons-io.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.alibaba</groupId>
-        <artifactId>fastjson</artifactId>
-        <version>${fastjson.version}</version>
+        <groupId>com.alibaba.fastjson2</groupId>
+        <artifactId>fastjson2</artifactId>
+        <version>${fastjson2.version}</version>
       </dependency>
       <dependency>
         <groupId>com.alibaba</groupId>
